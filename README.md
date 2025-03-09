@@ -1,6 +1,6 @@
 # DocAiChat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9. You can preview it here https://doc-ai-055k.onrender.com/.
 
 ## Development server
 
