@@ -1,14 +1,9 @@
 import { Component } from '@angular/core';
+import { ChatComponent } from './chat/chat.component';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `<app-chat></app-chat>`
 })
-export class AppComponent {
-  title = 'doc-ai-chat';
-}
+export class AppComponent {}
